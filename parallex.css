@@ -58,16 +58,16 @@ padding:5rem 0;
     
 }
 .bg1{
-    background-image: url(./parallex-image/sport-1.jpg);
+    background-image: url(./parallex/parallex-image/sport-1.jpg);
 }
 .bg2{
-    background-image: url(./parallex-image/sport-2.jpg);
+    background-image: url(./parallex/parallex-image/sport-2.jpg);
 }
 .bg3{
-    background-image: url(./parallex-image/sport-3.jpg);
+    background-image: url(./parallex/parallex-image/sport-3.jpg);
 }
 .bg4{
-    background-image: url(./parallex-image/sport-4.jpg);
+    background-image: url(./parallex/parallex-image/sport-4.jpg);
 }
 .secHead{
     font-size: 5rem;
