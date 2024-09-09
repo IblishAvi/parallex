@@ -8,6 +8,7 @@
     overflow-x:hidden;
     overflow-y:auto;
     perspective: 10px;
+    position: relative;
 }
 #container{
     position: relative;
@@ -22,8 +23,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    /* object-fit:cover; */
-    z-index:-1;
+    z-index:1;
     
 
 }
@@ -54,26 +54,28 @@ padding:5rem 0;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height:500px ;
+    height:700px ;
     
 }
 .bg1{
-    background-image: url(sport-1.jpg);
+    background-image: url(./parallex-image/sport-1.jpg);
 }
 .bg2{
-    background-image: url(sport-2.jpg);
+    background-image: url(./parallex-image/sport-2.jpg);
 }
 .bg3{
-    background-image: url(sport-3.jpg);
+    background-image: url(./parallex-image/sport-3.jpg);
 }
 .bg4{
-    background-image: url(sport-4.jpg);
+    background-image: url(./parallex-image/sport-4.jpg);
 }
 .secHead{
     font-size: 5rem;
     padding:0 10rem;
 }
 .text{
+    /* position: absolute; */
+    z-index: 2;
     font-size: 1.5rem;
     padding: 0 10rem;
     margin:5rem 0; 
